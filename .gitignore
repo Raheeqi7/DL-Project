@@ -1,0 +1,97 @@
+# ======================================
+# Python General
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+
+# ======================================
+# Virtual Environments
+# ======================================
+venv/
+.env/
+env/
+.venv/
+pip-wheel-metadata/
+*env*/
+
+# ======================================
+# Jupyter Notebook
+# ======================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Jupyter Lab settings
+.jupyter/
+
+# ======================================
+# IDE / Editor Settings
+# ======================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ======================================
+# OS Files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Logs and Debugging
+# ======================================
+*.log
+logs/
+debug.log
+
+# ======================================
+# TensorFlow / Keras Outputs
+# ======================================
+# Saved models
+saved_model/
+# *.h5
+*.keras
+*.pb
+*.tflite
+
+# Checkpoints
+checkpoints/
+*.ckpt
+*.ckpt.index
+*.ckpt.data*
+
+# TensorBoard logs
+runs/
+tensorboard_logs/
+events.out.tfevents.*
+
+
+# ======================================
+# Temporary Files
+# ======================================
+tmp/
+temp/
+*.tmp
+
+# ======================================
+# Python Package Management
+# ======================================
+pip-log.txt
+poetry.lock
+Pipfile.lock
+
+# ======================================
+# Environment Variables
+# ======================================
+.env.local
+.env.*.local
